@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Journey - Mapa</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/mapa1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- IMPORTANDO FONTE -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+    </style>
+
+    <!-- IMPORTANDO API MAPA -->
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" ></script>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+
+</head>
+<body>
+  
+<!-- MENU DE NAVEGAÇÃO -->
+<header>
+  <img class="logo" href="./index.html" src="" alt="Logo e nome">
+  <div class="navbar">
+      <a href="./mapa1.html">Mapa</a>
+      <div class="dropdown">
+        <button class="dropbtn">Suporte<span class="arrow"></span></button>
+        <div class="dropdown-content">
+          <a href="./instrucoes.html">Instruções</a>
+          <a href="./perguntas.html">Perguntas Frequentes</a>
+          <a href="./ajuda.html">Ajuda</a>
+        </div>
+      </div> 
+        <div class="dropdown">
+          <button class="dropbtn">Recursos<span class="arrow"></span></button>
+          <div class="dropdown-content">
+            <a href="#">Notícias</a>
+            <a href="#">Comunidade</a>
+            <a href="#">Doar</a>
+          </div>
+        </div> 
+    </div>
+    <div class="lang">
+      <a href="#"><img src="./img/language.png" style="width: 100%;"></a>
+  </div>
+  </header>
+
+<!-- MAPA -->
+<div id="mapContainer" style="width: 100%; height: 100%;">
+  
+</div>
+
+<!-- ABA COM OS LOCAIS -->
+
+
+<script src="./js/mapa1.js"></script>
+</body>
+</html>
